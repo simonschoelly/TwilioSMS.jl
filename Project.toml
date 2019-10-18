@@ -1,0 +1,13 @@
+name = "TwilioSMS"
+uuid = "a2c60971-6a69-4bc9-a5fb-2e7d30160e17"
+authors = ["Simon Schoelly <sischoel@gmail.com> 2019"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
