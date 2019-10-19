@@ -2,5 +2,5 @@ using TwilioSMS
 using Test
 
 @testset "TwilioSMS.jl" begin
-    # Write your own tests here.
+    # Currently we don't have any tests for this package
 end
