@@ -4,7 +4,6 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 ![GitHub](https://img.shields.io/github/license/simonschoelly/TwilioSMS.jl)
 
-^^^^^^
 ## Introduction
 TwilioSMS.jl is micro-package that provides a single function for sending text messages using the Twilio api. If there is interest, then further functionaliy can be added in the future. PRs are welcome.
 
@@ -45,7 +44,7 @@ sendsms("🛎️ Compilation is done, get back to work!", from=from, to=to, sid=
 ```
 
 ## Similar Julia packages
-* [Twilert.jl](https://github.com/glesica/Twilert.jl) Also allows one to send text messages using Twilio. Has not been updated in 6 years will not not run on current Julia versions.
+* [Twilert.jl](https://github.com/glesica/Twilert.jl) Also allows one to send text messages using Twilio. Has not been updated in 6 years so it will not run on current Julia versions.
 * [Pushover.jl](https://github.com/scls19fr/Pushover.jl) is a Julia packge for sending notifcations using the [Pushover Notification Service](https://pushover.net/).
 * [BulkSMS.jl](https://github.com/scls19fr/BulkSMS.jl) is a Julia package for sending notifications using [BulkSMS](https://www.bulksms.com).
 
